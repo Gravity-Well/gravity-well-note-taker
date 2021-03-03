@@ -14,7 +14,7 @@ const firebaseConfig = {
     appId:process.env.APPID
   }
  
-  console.log( process.env.DATABASEURL)
+
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 export default firebase;
